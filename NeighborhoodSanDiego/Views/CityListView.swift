@@ -15,23 +15,21 @@ struct CityListView: View {
         
         NavigationView {
             VStack {
-                Text("All Cities")
-                
                 ScrollView {
-                    LazyVStack {
+                    LazyVStack (alignment: .leading) {
                         ForEach(model.cities) { c in
                             
                             NavigationLink (destination: CityDetailView(city:c),
                                             label: {
                                 HStack {
                                     Image(c.image)
-//                                        .resizable()
-//                                        .scaledToFill()
-//                                        .frame(width: 50, height: 50, alignment: .center)
-//                                        .clipped()
-//                                        .cornerRadius(5)
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 50, height: 50, alignment: .center)
+                                        .clipped()
+                                        .cornerRadius(5)
                                     Text(c.city)
-//                                        .foregroundColor(.black)
+                                        .foregroundColor(.black)
                                 }
                             }
                             )
@@ -40,7 +38,7 @@ struct CityListView: View {
                     }
                 }
             }
-            .navigationTitle("LOL")
+            .navigationTitle("All Cities")
             .padding(.leading)
         }
         

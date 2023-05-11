@@ -9,7 +9,18 @@ import SwiftUI
 
 struct CityFeaturedView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("Welcome to Photo Slide Viewer!")
+                .font(.largeTitle)
+                .padding()
+            Text("Features to add")
+                .font(.headline)
+            Text("- Swipeable view of city photos")
+            Text("- ")
+            
+            Text("- ")
+            
+        }
     }
 }
 

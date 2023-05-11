@@ -12,27 +12,36 @@ struct CityTabView: View {
     var body: some View {
         TabView {
             
+            
             // MARK: First View
+            MapUIView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "mappin")
+                    }
+                }
+            
+            // MARK: Second View
             CityFeaturedView()
                 .tabItem{
                     VStack {
                         Image(systemName:"camera")
                     }
         }
-            // MARK: Second View
+            // MARK: Third View
             CityListView()
                 .tabItem{
                     VStack {
                         Image(systemName:"house")
                     }
         }
-            // MARK: Third View
-//            SettingsView()
-//                .tabItem{
-//                    VStack {
-//                        Image(systemName:"gearshape")
-//                    }
-//        }
+             // MARK: Fourth View
+            SettingsView()
+                .tabItem{
+                    VStack {
+                        Image(systemName:"gearshape")
+                    }
+        }
             
             
         }

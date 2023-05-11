@@ -16,20 +16,33 @@ struct CityDetailView: View {
             
             VStack {
                 
+                // MARK: City Title
+                Text(city.city)
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .padding([.top], 0)
+                
                 // MARK: City Image
                 Image(city.image)
                     .resizable()
                     .scaledToFill()
-                
-                // MARK: City Title
-                Text(city.city)
+                    .cornerRadius(10)
+                    .padding(.leading, 10)
+                    .padding(.trailing, 10)
+
                 
                 // MARK: About Section
-                VStack {
+                VStack(alignment: .center) {
                     Text("About")
+                        .font(.title)
+//                        .fontWeight(.bold)
+                        .padding(.leading, 0)
+                        .padding(.top, 0)
+                        .padding(.bottom, 10)
                     
                     Text(city.about)
                 }
+                .padding()
                 
                 // MARK: Divider
                 Divider()
@@ -37,10 +50,17 @@ struct CityDetailView: View {
                 // MARK: Fun Facts
                 VStack {
                     Text("Fun Facts")
-
-                    ForEach (0..<city.funFacts.count, id: \.self) { index in
-                        Text(String(index+0) + ". " + city.funFacts[index])
+                        .font(.title)
+                        .padding(.leading, 0)
+                        .padding(.top, 10)
+                        .padding(.bottom, 10)
+                    VStack(alignment: .center) {
+                        ForEach (0..<city.funFacts.count, id: \.self) { index in
+                            Text(String(index+1) + ". " + city.funFacts[index])
+                        }
                     }
+                    .padding(.leading, 10)
+                    .padding(.trailing, 10)
                 }
             }
         }

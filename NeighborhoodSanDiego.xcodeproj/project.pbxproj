@@ -14,6 +14,8 @@
 		151A15062A0051DF00A72E8D /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A15052A0051DF00A72E8D /* CityListView.swift */; };
 		151A15082A0051EE00A72E8D /* CityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A15072A0051EE00A72E8D /* CityDetailView.swift */; };
 		1590822429EF540A00DFCE99 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590822329EF540A00DFCE99 /* CityModel.swift */; };
+		15E346922A0C699900ABEB21 /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E346912A0C699900ABEB21 /* MapUIView.swift */; };
+		15E346942A0C69B200ABEB21 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E346932A0C69B200ABEB21 /* SettingsView.swift */; };
 		15E8437F29E7D6BC009B1D36 /* NeighborhoodSanDiegoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E8437E29E7D6BC009B1D36 /* NeighborhoodSanDiegoApp.swift */; };
 		15E8438329E7D6BE009B1D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E8438229E7D6BE009B1D36 /* Assets.xcassets */; };
 		15E8438629E7D6BE009B1D36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E8438529E7D6BE009B1D36 /* Preview Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		151A15052A0051DF00A72E8D /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
 		151A15072A0051EE00A72E8D /* CityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailView.swift; sourceTree = "<group>"; };
 		1590822329EF540A00DFCE99 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		15E346912A0C699900ABEB21 /* MapUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
+		15E346932A0C69B200ABEB21 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		15E8437B29E7D6BC009B1D36 /* NeighborhoodSanDiego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeighborhoodSanDiego.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E8437E29E7D6BC009B1D36 /* NeighborhoodSanDiegoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborhoodSanDiegoApp.swift; sourceTree = "<group>"; };
 		15E8438229E7D6BE009B1D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				151A15032A0051C500A72E8D /* CityFeaturedView.swift */,
 				151A15052A0051DF00A72E8D /* CityListView.swift */,
 				151A15072A0051EE00A72E8D /* CityDetailView.swift */,
+				15E346912A0C699900ABEB21 /* MapUIView.swift */,
+				15E346932A0C69B200ABEB21 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +210,8 @@
 				15E8439529E7DB95009B1D36 /* CityTabView.swift in Sources */,
 				151A15062A0051DF00A72E8D /* CityListView.swift in Sources */,
 				15E8437F29E7D6BC009B1D36 /* NeighborhoodSanDiegoApp.swift in Sources */,
+				15E346942A0C69B200ABEB21 /* SettingsView.swift in Sources */,
+				15E346922A0C699900ABEB21 /* MapUIView.swift in Sources */,
 				1590822429EF540A00DFCE99 /* CityModel.swift in Sources */,
 				151A15082A0051EE00A72E8D /* CityDetailView.swift in Sources */,
 				151A15022A0050DE00A72E8D /* DataService.swift in Sources */,
