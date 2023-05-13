@@ -1,7 +1,7 @@
 [{
         "city": "San Diego",
         "about": "San Diego is reowned for its idyllic climate, 70 miles of pristine beaches and a dazzling array of world-class family attractions. Popular attractions include the world-famous San Diego Zoo and San Diego Zoo Safari Park, SeaWorld San Diego, San Diego Padres and Legoland California.",
-        "funFacts": ["Ronald Reagan was the first person to drive across the Coronado Bridge when it opened in 1969.", "In San Diego, it’s illegal to shoot jackrabbits from the back of a streetcar.", "San Diego is home to the largest oceanographic museum in the USA, the Birch Aquarium at Scripps."],
+        "funFacts": ["Ronald Reagan was the first person to drive across the Coronado Bridge when it opened in 1969", "In San Diego, it’s illegal to shoot jackrabbits from the back of a streetcar", "San Diego is home to the largest oceanographic museum in the USA, the Birch Aquarium at Scripps"],
         "image": "neighborhood-san-diego-1",
         "attractions": ["Baloboa Park", "San Diego Zoo", "Gaslamp Quarter", "Midway Aircraft Carrier Museum", "Seaport Village"],
         "imagePreview": false,
@@ -19,7 +19,7 @@
     }, {
         "city": "La Jolla",
         "about": "La Jolla's biggest draw for locals and visitors alike are the beautiful beaches. During the summer and autumn months, the surf is relatively gentle, with warm waters in 70s. Swimmers, snorkelers, scuba divers, kayakers and surfers can enjoy the golden sands of La Jolla Shores, the Cove and Windansea.",
-        "funFacts": ["When combined with San Diego, the La Jolla Playhouse and SD have sent more shows to Broadway than any other city in America, even compared to NYC!", "La Jolla, starting around 2008, became the community with the highest home price average in the entire country.", "In its earlier years, 1894 to be specific, La Jolla was deemed an art colony. (With all breathtaking galleries and festivals, the history makes sense)."],
+        "funFacts": ["When combined with San Diego, the La Jolla Playhouse and SD have sent more shows to Broadway than any other city in America, even compared to NYC!", "La Jolla, starting around 2008, became the community with the highest home price average in the entire country", "In its earlier years, 1894 to be specific, La Jolla was deemed an art colony (with all breathtaking galleries and festivals, the history makes sense)"],
         "image": "neighborhood-san-diego-la-jolla-1",
         "attractions": ["La Jolla Cove", "Mt. Soledad National Veterans Memorial", "La Jolla Shores Park", "Windansea Beach", "Birch Aquarium at Scripps", "Torrey Pines Gliderport"],
         "imagePreview": false,
@@ -37,7 +37,7 @@
     }, {
         "city": "Chula Vista",
         "about": "Chula Vista, nicknamed “The Lemon Capital” for its many citrus trees, is best known for its scenic location, diverse culture, many parks and beaches, and vibrant art and theater community.",
-        "funFacts": ["Chula Vista is the second largest city in San Diego County with a population of more than 267,000", "Chula Vista is ranked among the safest cities in the U.S.", "The City of Chula Vista adopted its first Climate Action Plan in 2000."],
+        "funFacts": ["Chula Vista is the second largest city in San Diego County with a population of more than 267,000", "Chula Vista is ranked among the safest cities in the U.S.", "The City of Chula Vista adopted its first Climate Action Plan in 2000"],
         "image": "neighborhood-san-diego-chula-vista-1",
         "attractions": ["North Island Credit Union Amphitheatre", "Sesame Place San Diego", "Living Coast Discovery Center", "Chula Vista Marina View Park"],
         "imagePreview": false,
@@ -46,7 +46,7 @@
     }, {
         "city": "Oceanside",
         "about": "It’ s where wide sandy beaches and historical landmarks come with a side of street art and world - class culinary talent.Where you can whale watch, hit the links, cruise the coastal rail trail, or just soak up the laid - black classic cool, local brew in hand.Whatever you’ re into, it’ s here for you.",
-        "funFacts": ["Originally inhabited by Native Americans, the first European explorers arrived in 1769.", "At one time carnations were grown in and around Oceanside.One of our slogans was the“ Carnation City.”", "The City Flower was designated the Crimson Lake Bougainvillea on June 1, 1929 by the City Beautification Committee."],
+        "funFacts": ["Originally inhabited by Native Americans, the first European explorers arrived in 1769", "At one time carnations were grown in and around Oceanside.One of our slogans was the “Carnation City”", "The City Flower was designated the Crimson Lake Bougainvillea on June 1, 1929 by the City Beautification Committee"],
         "image": "neighborhood-san-diego-oceanside-2",
         "attractions": ["Oceanside Municipal Fishing Pier”, “Oceanside Harbor Beach“, “Oceanside Sunset Market", "Guajome Regional Park"],
         "imagePreview": false,
@@ -55,9 +55,8 @@
     },
     {
         "city": "La Mesa",
-        "about": "La Mesa in Spanish means the table , or alternately the plateau, relating to its geography. La Mesa was part of a larger tract, Mission San Diego de Alcalá, and was used by Spanish missionaries. La Mesa was founded in 1869 and The City of La Mesa was incorporated on February 16, 1912.",
-        "funFacts": ["There is a Farmer's Market in La Mesa Village every Friday afternoon.", "At the beginning of each October, La Mesa holds its biggest event of the year, Oktoberfest, attended by approximately 200, 000 people over the three nights of the event.",
-            "The Back to the '50s Car Show is an annual summer event where classic car enthusiasts come to display their vehicles. The event is held every Thursday evening during the months of June through August in La Mesa Village along La Mesa Boulevard. Admission to the event is free."
+        "about": "La Mesa in Spanish means the table, or alternately the plateau, relating to its geography. La Mesa was part of a larger tract, Mission San Diego de Alcalá, and was used by Spanish missionaries. La Mesa was founded in 1869 and The City of La Mesa was incorporated on February 16, 1912.",
+        "funFacts": ["There is a Farmer's Market in La Mesa Village every Friday afternoon", "At the beginning of each October, La Mesa holds its biggest event of the year, Oktoberfest, attended by approximately 200,000 people over the three nights of the event", "The Back to the '50s Car Show is an annual summer event where classic car enthusiasts come to display their vehicles. The event is held every Thursday evening during the months of June through August in La Mesa Village along La Mesa Boulevard. Admission to the event is free!"
         ],
         "image": "neighborhood-san-diego-la-mesa-2",
         "attractions": ["Lake Murray", "Mount Helix Park", "Helix Brewing Co", "Harry Griffen Regional Park"],

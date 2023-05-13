@@ -32,9 +32,9 @@ struct CityDetailView: View {
 
                 
                 // MARK: About Section
-                VStack(alignment: .center) {
+                VStack(alignment: .leading) {
                     Text("About")
-                        .font(.title)
+                        .font(.title2)
 //                        .fontWeight(.bold)
                         .padding(.leading, 0)
                         .padding(.top, 0)
@@ -48,20 +48,18 @@ struct CityDetailView: View {
                 Divider()
                 
                 // MARK: Fun Facts
-                VStack {
+                VStack(alignment: .leading) {
                     Text("Fun Facts")
-                        .font(.title)
+                        .font(.title2)
                         .padding(.leading, 0)
-                        .padding(.top, 10)
+                        .padding(.top, 0)
                         .padding(.bottom, 10)
-                    VStack(alignment: .center) {
-                        ForEach (0..<city.funFacts.count, id: \.self) { index in
-                            Text(String(index+1) + ". " + city.funFacts[index])
+                        ForEach (city.funFacts, id: \.self) { index in
+                            Text( "• " + index)
                         }
-                    }
-                    .padding(.leading, 10)
-                    .padding(.trailing, 10)
+                        .padding(.bottom)
                 }
+                .padding()
             }
         }
         
@@ -75,6 +73,6 @@ struct CityDetailView_Previews: PreviewProvider {
         // Create a dummy city and pass it into the detail view so that we can see a preview
         let model = CityModel()
         
-        CityDetailView(city: model.cities[0])
+        CityDetailView(city: model.cities[6])
     }
 }
