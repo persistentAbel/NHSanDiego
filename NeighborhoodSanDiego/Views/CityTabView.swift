@@ -27,21 +27,21 @@ struct CityTabView: View {
                     VStack {
                         Image(systemName:"camera")
                     }
-        }
+                }
             // MARK: Third View
             CityListView()
                 .tabItem{
                     VStack {
                         Image(systemName:"house")
                     }
-        }
-             // MARK: Fourth View
+                }
+            // MARK: Fourth View
             SettingsView()
                 .tabItem{
                     VStack {
                         Image(systemName:"gearshape")
                     }
-        }
+                }
             
             
         }
