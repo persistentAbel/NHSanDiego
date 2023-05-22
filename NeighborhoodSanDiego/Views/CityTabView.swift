@@ -13,11 +13,14 @@ struct CityTabView: View {
         TabView {
             
             
+            
             // MARK: First View
             MapUIView()
                 .tabItem {
                     VStack {
                         Image(systemName: "mappin")
+                        Text("Map")
+                        
                     }
                 }
             
@@ -26,6 +29,7 @@ struct CityTabView: View {
                 .tabItem{
                     VStack {
                         Image(systemName:"camera")
+                        Text("Photos")
                     }
                 }
             // MARK: Third View
@@ -33,6 +37,7 @@ struct CityTabView: View {
                 .tabItem{
                     VStack {
                         Image(systemName:"house")
+                        Text("Home")
                     }
                 }
             // MARK: Fourth View
@@ -40,6 +45,7 @@ struct CityTabView: View {
                 .tabItem{
                     VStack {
                         Image(systemName:"gearshape")
+                        Text("Settings")
                     }
                 }
             

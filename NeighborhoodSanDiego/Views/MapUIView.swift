@@ -19,6 +19,11 @@ struct MapUIView: View {
         latitudeDelta: 0.9,
         longitudeDelta: 1.0))
     
+    // For opening URLS on the Web
+    @Environment(\.openURL) var openURL
+    
+
+    
     var body: some View {
         
         VStack{
@@ -26,12 +31,26 @@ struct MapUIView: View {
                 showsUserLocation: true, userTrackingMode: $tracking, annotationItems: MapLocations, annotationContent: { location in
                 
                 MapAnnotation(coordinate: location.coordinate, content: {
-                    Image(systemName: "mappin").foregroundColor(.red)
-                        .fontWeight(.bold)
+                        Image(systemName: "mappin").foregroundColor(.red)
+                            .fontWeight(.bold)
+                    Button("\(location.name)") {
+                        // Would have to concatenate web url string with location.name for address
+                        
+                        // adding cityLocationName + web url to concatenate together
+//                        var cityLocationName = location.name
+
+                        
+                        openURL(URL(string: "https://www.google.com/maps/place/")!)
+                            }
+                    .foregroundColor(.black)
+                    .font(.title)
+                    .fontWeight(.black)
+//                    Text(location.name)
+//                        .foregroundColor(.black)
+//                        .font(.title)
+//                        .fontWeight(.black)
                     
-                    Text(location.name).foregroundColor(.black)
-                        .font(.title)
-                        .fontWeight(.black)
+                    
                 })
                 
             } )
