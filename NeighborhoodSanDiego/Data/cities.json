@@ -10,7 +10,7 @@
     }, {
         "city": "Solana Beach",
         "about": "Located along San Diego’s north coast and nestled between glitzy Del Mar to the south and eclectic Encinitas to the north, Solana Beach has a mellow, small-town feel that compels visitors to take it slow. Along with gorgeous bluffs overlooking the ocean and a serene shoreline, Solana Beach boasts one of San Diego’s top shopping districts, plus great restaurants and nightlife.",
-        "funFacts": ["lol123", "lol1234", "dfasdfasdf"],
+        "funFacts": ["Solana Beach (Solana, Spanish for warm wind) is a coastal city in San Diego County, California", "The area was first settled by the San Dieguitos, early Holocene inhabitants of the area.", "The city received national news in 2003 upon becoming the first city in the Continental United States to enact a smoking ban on its public beaches, a trend which has continued as many other coastal Californian towns have followed suit in banning smoking on their beaches."],
         "image": "neighborhood-san-diego-solana-beach-1",
         "attractions": ["Annie's Canyon Trail", "Fletcher Cove Park", "Cedros Design District", "Carruth Cellars Urban Winery & Tasting Room", "North Coast Repertory Theatre"],
         "imagePreview": false,
@@ -26,9 +26,9 @@
         "showFunFacts": false
 
     }, {
-        "city": "CarlsBad",
-        "about": "Known as “The Village by the Sea,” the city of Carlsbad offers the charm of a European town with the conveniences of a large city. As you wander streets lined with antique stores, boutique shops, and sidewalk cafes, you’ll soon discover much more, including miles of coastline, beautiful flower gardens and world-class resorts.",
-        "funFacts": ["Did you know that Legoland California is one of Legoland's 7 theme parks", "Carlsbad has 3 lagoons", "The Carlsbad Triathlon is one of the longest running triathlons in the world (top 5)"],
+        "city": "Carlsbad",
+        "about": "Known as “The Village by the Sea,” the city of Carlsbad offers the charm of a European town with the conveniences of a large city. As you wander streets lined with antique stores, boutique shops, and sidewalk cafes, you’ll soon discover much more, including miles of coastline, beautiful flower gardens and world-class resorts",
+        "funFacts": ["Did you know that Legoland California is one of Legoland's 7 theme parks - the others are in the UK, Germany, Denmark, Dubai, Malaysia, and Florida", "Carlsbad has 3 lagoons - Batiquitos(bordering Encinitas) in South Carlsbad, Aqua Hedionda (by the power plant north of Cannon Road), and Buena Vista (bordering Oceanside). Only the Aqua Hedionda lagoon allows water activities and boating", "The Carlsbad Triathlon is one of the longest running triathlons in the world (top 5) and is one of several popular athletic events in Carlsbad including the Carlsbad Marathon"],
         "image": "neighborhood-san-diego-carlsbad-2",
         "attractions": ["Legoland California", "Sea Life Aquarium", "The Flower Fields", "K1 Speed - Indoor Go Karts"],
         "imagePreview": false,
